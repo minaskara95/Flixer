@@ -10,6 +10,7 @@
 		5534E1A44A95D41E80A65DCE /* Pods_FlixerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12842364FDE46C803688B191 /* Pods_FlixerTests.framework */; };
 		582E642F9EAF27409D19671E /* Pods_Flixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473E64AEE18B5D912DE87F48 /* Pods_Flixer.framework */; };
 		CD25ED9CCCD9961CAE421419 /* Pods_FlixerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9380FB667E85A925DA5B98F /* Pods_FlixerUITests.framework */; };
+		EC212315222B3F7A000F0543 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC212314222B3F7A000F0543 /* MovieGridCell.swift */; };
 		EC2331F12214E38E00A64BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2331F02214E38E00A64BD3 /* AppDelegate.swift */; };
 		EC2331F62214E38E00A64BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2331F42214E38E00A64BD3 /* Main.storyboard */; };
 		EC2331F82214E39000A64BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2331F72214E39000A64BD3 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 		EC2332112214E39000A64BD3 /* FlixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2332102214E39000A64BD3 /* FlixerUITests.swift */; };
 		EC23321F2214E57A00A64BD3 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23321E2214E57A00A64BD3 /* MoviesViewController.swift */; };
 		EC2332232216575E00A64BD3 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2332222216575E00A64BD3 /* MovieCell.swift */; };
+		ECE5B732222B004A00315EDA /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE5B731222B004A00315EDA /* MovieDetailsViewController.swift */; };
+		ECE5B734222B210F00315EDA /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE5B733222B210F00315EDA /* MovieGridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,7 @@
 		C60359ED70658A076B7FDCE2 /* Pods-Flixer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixer.debug.xcconfig"; path = "Target Support Files/Pods-Flixer/Pods-Flixer.debug.xcconfig"; sourceTree = "<group>"; };
 		D8A51339CD776F6DC419822C /* Pods-FlixerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixerUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlixerUITests/Pods-FlixerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9380FB667E85A925DA5B98F /* Pods_FlixerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC212314222B3F7A000F0543 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		EC2331ED2214E38E00A64BD3 /* Flixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2331F02214E38E00A64BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC2331F52214E38E00A64BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 		EC2332122214E39000A64BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC23321E2214E57A00A64BD3 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		EC2332222216575E00A64BD3 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		ECE5B731222B004A00315EDA /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		ECE5B733222B210F00315EDA /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		FAF52A4B3A55584A20DB8E9B /* Pods-FlixerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixerUITests.release.xcconfig"; path = "Target Support Files/Pods-FlixerUITests/Pods-FlixerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +139,9 @@
 				EC2331FC2214E39000A64BD3 /* Info.plist */,
 				EC2332222216575E00A64BD3 /* MovieCell.swift */,
 				EC23321E2214E57A00A64BD3 /* MoviesViewController.swift */,
+				ECE5B731222B004A00315EDA /* MovieDetailsViewController.swift */,
+				ECE5B733222B210F00315EDA /* MovieGridViewController.swift */,
+				EC212314222B3F7A000F0543 /* MovieGridCell.swift */,
 			);
 			path = Flixer;
 			sourceTree = "<group>";
@@ -396,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE5B734222B210F00315EDA /* MovieGridViewController.swift in Sources */,
+				ECE5B732222B004A00315EDA /* MovieDetailsViewController.swift in Sources */,
 				EC2331F12214E38E00A64BD3 /* AppDelegate.swift in Sources */,
 				EC23321F2214E57A00A64BD3 /* MoviesViewController.swift in Sources */,
+				EC212315222B3F7A000F0543 /* MovieGridCell.swift in Sources */,
 				EC2332232216575E00A64BD3 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +586,7 @@
 			baseConfigurationReference = C60359ED70658A076B7FDCE2 /* Pods-Flixer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFXM7P3Q9X;
 				INFOPLIST_FILE = Flixer/Info.plist;
@@ -583,6 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstapp.Flixer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -593,6 +607,7 @@
 			baseConfigurationReference = 3A95C7D9D5FF0FDA62385DB4 /* Pods-Flixer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFXM7P3Q9X;
 				INFOPLIST_FILE = Flixer/Info.plist;
@@ -602,6 +617,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstapp.Flixer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
